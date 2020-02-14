@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'science_projectregular';
+    src: url('sciep-webfont.woff2') format('woff2'),
+         url('sciep-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+ #resultat{
+    font-size: 16px;
+    text-align:center:
+    padding:10px;
+    width:180px;
+    background-color:#b0eaac;
+	}
+
+ #html, body {
+	margin: 0;
+	background: #f5f5f5;
+	}
+
+ .buton1{
+	padding:6px 0 6px 0;
+	font:bold 12px Arial;
+	background:#478bf9;
+	color:white;
+	border-radius:2px;
+	width:200px;
+	border:none;
+	}
+
+ .input{
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	}
+
+ .header{
+	font-family: 'science_projectregular';
+	font-size: 50pt;
+	text-align:center;
+	color: #478bf9;
+	}
+
+ .credit{
+ 	text-align: center;
+	font-size: 12pt;
+	color: black;
+	position:absolute;
+	bottom:0;
+	left:0;
+	right:0;
+	}

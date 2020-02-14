@@ -1,0 +1,29 @@
+<!doctype html>
+	<html lang="fr">
+		<head>
+			<meta charset="utf-8" />
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<meta name="author" content="Ilyas TASLI, Antoine DUCOUROUBLE, Marin DEROUET">
+			<title>The Chemistry Website</title>
+			<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+			<p class="header">The Chemistry Website</p>
+		</head>
+	<body onKeyPress="if (event.keyCode == 13) calcule()">
+		<div class="input">
+	<input type="text" id="formule" placeholder="Formule Brute" style="text-align:center" onkeyup="this.value=this.value.replace(/[^a-zA-Z0-9]/ig, '');">
+	<input type="button" id="calculate" value="Calculer" class="buton1" style="text-align:center" onclick="calcule();">
+		</div>
+
+	<div id="resultat" class="input"></div>
+	<div id="faux"></div>
+
+
+<script type="text/javascript" src="SCRIPT.js"></script>
+
+
+	<footer class="credit">
+		<p>Crédits :</p>
+		<li>Police &ldquo; Science Project &rdquo; : <a href="https://www.dafont.com/fr/science-project.font">Source et licence</a></li>
+	</footer>
+</body>
+</html>
