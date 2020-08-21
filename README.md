@@ -1,2 +1,2 @@
 # molar-mass
-molar mass calculator
+molar mass calculator made for my ISN project
