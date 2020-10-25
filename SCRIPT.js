@@ -98,7 +98,7 @@ var atoms = { // tableau périodique avec les masses atomiques
 	Es: 252.0829,
 	Fm: 257.0951,
 	Md: 258.0986,
-	No:	259.1009,
+	No: 259.1009,
 	Lr: 260.1053,
 	Rf: 261.1087,
 	Db: 262.1138,
